@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERSHIP TASK CODSOFT</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant&family=Lato&family=Oswald&family=Pacifico&family=Roboto:ital,wght@0,300;0,400;1,300;1,500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+      <div class="calculator">
+       <form >
+         <div class="display">
+           <input type="text" name="display" id ="field" placeholder="0" >
+         </div>
+
+         <div>
+            <input type="button" value ="7"  onclick="display.value +='7'">
+            <input type="button" value ="8"  onclick="display.value +='8'">
+            <input type="button" value ="9"  onclick="display.value +='9'">
+            <input type="button" value ="+" class="oper" onclick="display.value +='+' ">
+         </div>
+         <div>
+            <input type="button" value="4"  onclick="display.value +='4'">
+            <input type="button" value="5"  onclick="display.value +='5'">
+            <input type="button" value="6"  onclick="display.value +='6'">
+            <input type="button" value="-" class="oper" onclick="display.value +='-' ">
+         </div>
+         <div>
+            <input type="button" value="1"  onclick="display.value +='1'">
+            <input type="button" value="2"  onclick="display.value +='2'">
+            <input type="button" value="3"  onclick="display.value +='3'">
+            <input type="button" value="=" onclick= "display.value = eval(display.value) " id="equal_oper">
+         </div>
+
+        </form>
+
+      </div>
+   </div> 
+</body>
+</html>

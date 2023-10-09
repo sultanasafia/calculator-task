@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.calculator{
+    background-color: #3498db;
+    padding: 21px;
+    border-radius: 32px;
+    width: 480px;
+    height: 480px;
+    aspect-ratio: 16/9;
+   
+
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 84px;
+    height: 84px;
+    border-radius: 20px;
+    box-shadow: -8px -8px 15px rgba(255 , 255 , 255 , 0.1), 5px 5px 15px rgba(0 , 0 , 0, 0.2);
+    background: transparent;
+    background-color: #0652DD;
+    font-size: 48px;
+    color: #fff;
+    /* cursor: pointer; */
+    margin: 5px;
+    margin-left: 13px;
+    padding: 10px;
+   font-weight: 300;
+   aspect-ratio: 16/9;
+
+}
+form .display{
+    display: flex;
+    /* justify-content: flex-end; */
+    /* margin: 16px 10px 30px 10px; */
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+form .display input[type='text']{
+    text-align: right;
+    flex: 1;
+    font-size: 60px;
+    box-shadow: none;
+    padding-right: 16px;
+    padding-left: 12px;
+    
+}
+
+form div #field{
+    background-color:azure;
+    border-radius: 10px;
+    height: 90px;
+    color: black;
+   padding-left: 10px;
+   padding-right: 13px;
+    
+}
+.calculator form input[type ="button"]:hover{
+background-color: #1e3799;
+}
+/* =======================first time======================= */
+    @media screen and (max-width:360px){
+     .container{
+            width: 100%;
+        }
+        .calculator{
+            background-color: #3498db;
+            padding: 10px;
+            border-radius: 40px;
+            width: 300px;
+            height: 300px;
+        
+        }
+        .calculator form input{
+            border: 0;
+            outline: 0;
+            width: 60px;
+            height: 60px;
+            border-radius: 20px;
+            box-shadow: -8px -8px 15px rgba(255 , 255 , 255 , 0.1), 5px 5px 15px rgba(0 , 0 , 0, 0.2);
+            background: transparent;
+            background-color: #0652DD;
+            font-size: 32px;
+            color: #fff;
+           margin-bottom: 30px;
+            margin: 2px;
+            margin-left: 3px;
+            padding: 3px;
+           font-weight: 100;
+         
+        
+        }
+        .calculator form input[type = "button"]{
+          font-size: 30px;
+        }
+        form .display{
+            display: flex;
+            margin-bottom: 8px;
+            margin-top: 8px;
+        }
+        form .display input[type='text']{
+            text-align: right;
+            flex: 1;
+            font-size: 46px;
+            box-shadow: none;
+            padding-right: 7px;
+            padding-left: 7px;
+            
+        }
+        form div #field{
+            background-color:azure;
+            border-radius: 10px;
+            height: 30px;
+            color: black;
+           padding-left: 5px;
+           padding-right: 7px;
+            
+        }
+        
+
+    }
+    /* =================second time=================== */
+    @media screen and (max-width:423px){
+        .container{
+               width:100%;
+           }
+           .calculator{
+               background-color: #3498db;
+               padding: 10px;
+               border-radius: 20px;
+               width: 330px;
+               height: 330px;
+           
+           }
+           .calculator form input[type = "button"]{
+            font-size: 30px;
+          }
+           .calculator form input{
+              
+               width: 67px;
+               height: 67px;
+               border-radius: 10px;
+               box-shadow: -8px -8px 15px rgba(255 , 255 , 255 , 0.1), 5px 5px 15px rgba(0 , 0 , 0, 0.2);
+               background: transparent;
+               background-color: #0652DD;
+               font-size: 22px;
+               color: #fff;
+               margin-bottom: 26px;
+               margin: 2px;
+               margin-left: 3px;
+               padding: 3px;
+           
+            
+           
+           }
+           form .display{
+               display: flex;
+               margin-bottom: 20px;
+               margin-top: 10px;
+           }
+           form .display input[type='text']{
+               text-align: right;
+               flex: 1;
+               font-size: 40px;
+               box-shadow: none;
+               padding-right: 3px;
+               padding-left: 3px;
+               
+           }
+           form div #field{
+               background-color:azure;
+               border-radius: 7px;
+               height: 40px;
+               color: black;
+              padding-left: 3px;
+              padding-right: 5px;
+              font-size: 35px;
+               
+           }
+           
+   
+       }
+       /* =====================third time========================= */
+       @media screen and (max-width:490px){
+        .container{
+               width: 100%;
+           }
+           .calculator{
+               background-color: #3498db;
+               padding: 10px;
+               border-radius: 20px;
+               width: 340px;
+               height: 330px;
+           
+           }
+           .calculator form input[type = "button"]{
+            font-size: 30px;
+          }
+           .calculator form input{
+              
+               width: 67px;
+               height: 67px;
+               border-radius: 10px;
+               box-shadow: -8px -8px 15px rgba(255 , 255 , 255 , 0.1), 5px 5px 15px rgba(0 , 0 , 0, 0.2);
+               background: transparent;
+               background-color: #0652DD;
+               font-size: 22px;
+               color: #fff;
+              margin-bottom: 26px;
+               margin: 2px;
+               margin-left: 3px;
+               padding: 3px;
+           
+            
+           
+           }
+           form .display{
+               display: flex;
+               margin-bottom: 20px;
+               margin-top: 10px;
+           }
+           form .display input[type='text']{
+               text-align: right;
+               flex: 1;
+               font-size: 40px;
+               box-shadow: none;
+               padding-right: 3px;
+               padding-left: 3px;
+               
+           }
+           form div #field{
+               background-color:azure;
+               border-radius: 7px;
+               height: 40px;
+               color: black;
+              padding-left: 3px;
+              padding-right: 10px;
+              font-size: 35px;
+              width: 60px;
+               
+           }
+           
+   
+       }
